@@ -1,12 +1,10 @@
 # game_of_life
 
-Participants
-============
+Participants:
 Alexis PORTAL
 
     
-Description
-===========
+Description:
 J'ai refait le programme qui est présenté dans la vidéo https://www.youtube.com/watch?v=IK7nBOLYzdE:
 - Les lignes de 0 jusqu'à une limite de l'écran suivent l'algorithme de Conway
     * si la cellule a 3 voisins en vie, elle est en viellipsis
@@ -28,8 +26,8 @@ J'ai refait le programme qui est présenté dans la vidéo https://www.youtube.c
     # OOO               => O
 
 
-jdlv_my_tools.py
-================
+jdlv_my_tools.py:
+
 
     apply_rules (grid, compteur)
     ============================
@@ -67,8 +65,7 @@ jdlv_my_tools.py
     Cette fonction renvoie la couleur dans la liste jdlv_data.colors qui correspond au statut de la cellule
                                                                    
     
-Corrections
-===========
+Corrections:
 * Le programme ne fonctionnait plus lorsque j'ai changé les valeurs de life_status et death_status car
   la fonction jdlv_controleur.action_tablew_grid_itemSelectionChanged n'utilisait pas death_status mais la valeur
   0
