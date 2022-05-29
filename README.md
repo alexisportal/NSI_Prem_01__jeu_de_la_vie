@@ -15,15 +15,15 @@ J'ai refait le programme qui est présenté dans la vidéo https://www.youtube.c
     
 - Les lignes cette limite+1 jusqu'à l'avant dernière ligne sont décalées vers le haut
 - La dernière ligne suit les règles suivantes :
-    # ligne du dessus   => cellule (X en vie, O morte)
-    # XXX               => O
-    # XXO               => O 
-    # XOX               => O
-    # XOO               => X
-    # OXX               => X
-    # OXO               => X
-    # OOX               => X
-    # OOO               => O
+     ligne du dessus   => cellule (X en vie, O morte)
+     XXX               => O
+     XXO               => O 
+     XOX               => O
+     XOO               => X
+     OXX               => X
+     OXO               => X
+     OOX               => X
+     OOO               => O
 
 
 jdlv_my_tools.py:
